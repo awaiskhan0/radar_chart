@@ -14,7 +14,7 @@ values = [random()*1000 for i in range(len(labels))]
 radar_chart(values, labels, y_ticks=False, rotate=90)
 plt.show()
 ```
-![alt text](https://raw.githubusercontent.com/awaiskhan0/awaiskhan0.github.io/master/Images/radar_chart_example.png)
+<img src="https://raw.githubusercontent.com/awaiskhan0/awaiskhan0.github.io/master/Images/radar_chart_example.png" width="200">
 
 ### Parameters:
 
