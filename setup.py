@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="radar-chart",
-    version="0.0.4",
+    version="0.0.5",
     author="Awais Khan",
     author_email="awaisgithub@gmail.com",
     description="A package to quickly visualise radar charts",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/awaiskhan0/radar_chart",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
