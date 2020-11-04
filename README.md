@@ -15,6 +15,7 @@ radar_chart(values, labels, line_color='red', fill_color='red')
 plt.show()
 
 ```
+![Crepe](https://raw.githubusercontent.com/awaiskhan0/radar_chart/master/output/radar_chart_example_1.png){: .mx-auto.d-block :}
 <img src="https://raw.githubusercontent.com/awaiskhan0/radar_chart/master/output/radar_chart_example_1.png" width="400">{: .mx-auto.d-block :}
 
 
