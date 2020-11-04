@@ -15,9 +15,10 @@ radar_chart(values, labels, line_color='red', fill_color='red')
 plt.show()
 
 ```
-![Crepe](https://raw.githubusercontent.com/awaiskhan0/radar_chart/master/output/radar_chart_example_1.png){: .mx-auto.d-block :}
-<img src="https://raw.githubusercontent.com/awaiskhan0/radar_chart/master/output/radar_chart_example_1.png" width="400">{: .mx-auto.d-block :}
 
+<p align="center" width="100%">
+    <img width="50%" src="https://raw.githubusercontent.com/awaiskhan0/radar_chart/master/output/radar_chart_example_1.png">
+</p>
 
 ```python
 labels = [str(i) + ":00" for i in range(1,13)][::-1]
@@ -26,7 +27,10 @@ values = [random()*1000 for i in range(len(labels))]
 radar_chart(values, labels, y_ticks=False, rotate=90)
 plt.show()
 ```
-<img src="https://raw.githubusercontent.com/awaiskhan0/radar_chart/master/output/radar_chart_example_2.png" width="400">{: .mx-auto.d-block :}
+
+<p align="center" width="100%">
+    <img width="50%" src="https://raw.githubusercontent.com/awaiskhan0/radar_chart/master/output/radar_chart_example_2.png">
+</p>
 
 ### Parameters:
 
