@@ -15,7 +15,7 @@ radar_chart(values, labels, line_color='red', fill_color='red')
 plt.show()
 
 ```
-<img src="https://raw.githubusercontent.com/awaiskhan0/awaiskhan0.github.io/master/Images/radar_chart_example_1.png" width="400">
+<img src="https://raw.githubusercontent.com/awaiskhan0/radar_chart/master/output/radar_chart_example_1.png" width="400">
 
 
 ```python
@@ -25,7 +25,7 @@ values = [random()*1000 for i in range(len(labels))]
 radar_chart(values, labels, y_ticks=False, rotate=90)
 plt.show()
 ```
-<img src="https://raw.githubusercontent.com/awaiskhan0/awaiskhan0.github.io/master/Images/radar_chart_example_2.png" width="400">
+<img src="https://raw.githubusercontent.com/awaiskhan0/radar_chart/master/output/radar_chart_example_2.png" width="400">
 
 ### Parameters:
 
