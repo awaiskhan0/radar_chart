@@ -8,6 +8,9 @@ def radar_chart(stats, cat_labels=None, line_color='#1E88E5', fill_color='#1E88E
 
     if cat_labels:
         labels = np.array(cat_labels)
+        
+        # fix the bug of "The number of FixedLocator locations (6), usually from a call to set_ticks, does not match the number of ticklabels (5)"
+        labels = np.concatenate((labels, [labels[0]]))
     else:
         labels = [''] * len(stats)
 
